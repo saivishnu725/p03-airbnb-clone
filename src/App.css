@@ -24,7 +24,8 @@ nav {
   padding-bottom: 2rem;
 }
 
-.hero > p, h1{
+.hero > p,
+h1 {
   max-width: 60%;
   text-align: left;
   font-size: 1.3rem;
