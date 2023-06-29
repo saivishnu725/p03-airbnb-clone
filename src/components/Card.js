@@ -12,15 +12,20 @@ function Card() {
       Description
       From $xyz / person
     */}
-      <img src={img1} alt="katie" />
-      <p>
-        <img src={star} alt="Star" />
-        5.0 <i> (6) .USA </i>
-      </p>
-      <p> Life lessons with Katie Zaferes </p>
-      <p>
-        <b> From $136 </b> / person{" "}
-      </p>
+      <img className="card-image" src={img1} alt="katie" />
+      <div className="card-text">
+        <div>
+          <img src={star} alt="Star" />
+          <span> 5.0 </span>
+          <span className="gray"> (6) </span>
+          <span className="gray"> . USA </span>
+        </div>
+        <p> Life lessons with Katie Zaferes </p>
+        <p>
+          <span className="bold"> From $136 </span>
+          <span> / person </span>
+        </p>
+      </div>
     </div>
   );
 }

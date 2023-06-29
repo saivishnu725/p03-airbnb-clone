@@ -2,9 +2,19 @@
   text-align: center;
 }
 
+
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 nav {
   height: 55px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
 }
 
 .logo {
@@ -32,3 +42,15 @@ h1 {
   font-family: monospace;
 }
 
+.card {
+  width: 200px;
+  /* background-color: aqua; */
+}
+
+.card-image {
+  border-radius: 10px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
