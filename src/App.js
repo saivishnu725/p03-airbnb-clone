@@ -8,7 +8,11 @@ function App() {
     <div className="App">
       <NavBar />
       {/* <Hero /> */}
-      <Card />
+      <div className='cards'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
