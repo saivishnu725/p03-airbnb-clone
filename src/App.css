@@ -11,3 +11,23 @@ nav {
   float: left;
   max-height: 60px;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+.hero-grid {
+  align-self: center;
+  max-width: 60%;
+  padding-bottom: 2rem;
+}
+
+.hero > p, h1{
+  max-width: 60%;
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: monospace;
+}
+
