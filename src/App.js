@@ -21,6 +21,25 @@ function App() {
           title="Life lessons with Katie Zaferes"
           price="136"
         />
+        <Card
+          image={img2}
+          rating="5.0"
+          total_rating="30"
+          location="USA"
+          title="Learn wedding photography"
+          price="125"
+        />
+        
+        <Card
+          image={img3}
+          rating="4.8"
+          total_rating="2"
+          location="USA"
+          title="Group Mountain Biking"
+          price="50"
+        />
+        
+
       </div>
     </div>
   );
