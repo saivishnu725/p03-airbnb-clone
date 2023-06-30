@@ -58,3 +58,7 @@ h1 {
 .card-text {
   font-size: 0.9rem;
 }
+
+.card-text > p {
+  color: #222;
+}
