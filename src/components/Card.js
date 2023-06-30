@@ -16,7 +16,7 @@ function Card(props) {
         <div>
           <img src={star} alt="Star" />
           <span> {props.rating} </span>
-          <span className="gray"> {props.total_rating} </span>
+          <span className="gray"> ({props.total_rating}) </span>
           <span className="gray"> . {props.location} </span>
         </div>
         <p> {props.title} </p>
