@@ -1,6 +1,6 @@
 import star from "../images/star.png";
 
-function Card(props) {
+function Card({ image, rating, total_rating, location, title, price }) {
   return (
     <div className="card">
       {/* 
@@ -11,17 +11,17 @@ function Card(props) {
     */}
 
       {/* image, rating, total_rating, location, title, price */}
-      <img className="card-image" src={props.image} alt="card-pic" />
+      <img className="card-image" src={image} alt="card-pic" />
       <div className="card-text">
         <div>
           <img src={star} alt="Star" />
-          <span> {props.rating} </span>
-          <span className="gray"> ({props.total_rating}) </span>
-          <span className="gray"> . {props.location} </span>
+          <span> {rating} </span>
+          <span className="gray"> ({total_rating}) </span>
+          <span className="gray"> . {location} </span>
         </div>
-        <p> {props.title} </p>
+        <p> {title} </p>
         <p>
-          <span className="bold"> From ${props.price} </span>
+          <span className="bold"> From ${price} </span>
           <span> / person </span>
         </p>
       </div>
