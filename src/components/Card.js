@@ -1,16 +1,25 @@
 import star from "../images/star.png";
 
-function Card({ image, rating, total_rating, location, title, price }) {
+function Card({
+  image,
+  rating,
+  total_rating,
+  location,
+  title,
+  price,
+  sold_out,
+}) {
   return (
     <div className="card">
       {/* 
-      img
+      img / sold out
       star, rating out of 5 (total ratings), Location
       Description
       From $xyz / person
     */}
 
       {/* image, rating, total_rating, location, title, price */}
+      {sold_out === 0 && <div className="card-badge"> Sold out </div>}
       <img className="card-image" src={image} alt="card-pic" />
       <div className="card-text">
         <div>
