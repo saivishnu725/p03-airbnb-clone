@@ -51,7 +51,18 @@ h1 {
 
 .card {
   width: 200px;
+  position: relative;
   /* background-color: aqua; */
+}
+
+.card-badge {
+  position: absolute;
+  background-color: white;
+  opacity: 85%;
+  left: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 5px;
 }
 
 .card-image {
