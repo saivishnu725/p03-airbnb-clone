@@ -11,6 +11,7 @@ const a = [
     location: "USA",
     title: "Life lessons with Katie Zaferes",
     price: 136,
+    sold_out: 1,
   },
   {
     key: 2,
@@ -20,6 +21,7 @@ const a = [
     location: "USA",
     title: "Learn wedding photography",
     price: 125,
+    sold_out: 0,
   },
   {
     key: 3,
@@ -29,6 +31,7 @@ const a = [
     location: "USA",
     title: "Group Mountain Biking",
     price: 50,
+    sold_out: 10,
   },
 ];
 
